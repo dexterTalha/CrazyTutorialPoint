@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_dbms"
+            android:icon="@drawable/database"
+            android:title="DBMS" />
+        <item
+            android:id="@+id/nav_c"
+            android:icon="@drawable/letter_c"
+            android:title="C Language" />
+        <item
+            android:id="@+id/nav_cpp"
+            android:icon="@drawable/letter_cpp"
+            android:title="C++ Language" />
+        <item
+            android:id="@+id/nav_python"
+            android:icon="@drawable/python"
+            android:title="Python" />
+    </group>
+
+    <item android:title="Communicate">.
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_local_phone"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
